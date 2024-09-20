@@ -82,6 +82,5 @@ Amoy Faucet: Amoy Faucet (Joining Polygon Discord required)
 If you encounter issues with the Solidity compiler version, please check the version compatibility.
 
 Authors
-Hey there! I'm Mannu Baveja, the creator of this project.
-
-Metacrafter ID: bavejamannu (bavejamannu@gmail.com)
+Saloni Gupta
+(salonig16659@gmail.com)
