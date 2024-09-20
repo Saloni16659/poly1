@@ -1,8 +1,8 @@
-# 🎉 Welcome to NFT Bridge from Sepolia to Amoy Using FX Portal! 🎉
+#  Welcome to NFT Bridge from Sepolia to Amoy Using FX Portal! 
 
 Hello there, welcome to my project! In this project, we will batch mint NFTs on the Sepolia network and bridge them to the Amoy network using the FX Portal. This project demonstrates the bridging functionality with ERC721A NFTs.
 
-## Description 📚
+## Description 
 
 This project shows how to bridge NFTs between different networks. With the deprecation of the Goerli and Mumbai testnets, we are using Sepolia and Amoy networks. The `StreetNft.sol` contract is ideal for batch minting multiple NFTs in one go.
 
@@ -28,16 +28,16 @@ function batchMintNFT(string[] memory nftURLs, string[] memory prompts) public o
 
 ```
 
-#### Batch Minting NFTs 🪙
+#### Batch Minting NFTs 
 Users can batch mint NFTs on the Sepolia network using the batchMintNFT() function. This function allows the minting of multiple NFTs in one transaction.
 
-#### Bridging NFTs 🔄
+#### Bridging NFTs 
 Once the NFTs are minted on Sepolia, they need to be bridged to Amoy using FX Portal. This involves approving the deposit and waiting for the bridge process to complete.
 
 #### Checking NFT Balances
 Verify the successful bridging by checking the balance of NFTs on the Amoy network after the bridge operation.
 
-#### 😊😊 Installing
+#### Installing
 Clone the Repository: Fork or clone this repository to your local system.
 
 #### Install Dependencies: 
@@ -71,17 +71,17 @@ Deploy and run getBalance.js on the Amoy network to check the total number of NF
 
 
 npx hardhat run scripts/getBalance.js --network amoy
-#### 👋👋 Join in!
-Got a great idea? We'd love to see your contribution! Feel free to submit an issue or open a pull request. 😁😁
+#### Join in!
+Got a great idea? We'd love to see your contribution! Feel free to submit an issue or open a pull request.
 
-#### ⚠️⚠️ Help
+#### Help
 Ensure that you have some faucet tokens on both networks:
 
 Sepolia Faucet: Sepolia Faucet
 Amoy Faucet: Amoy Faucet (Joining Polygon Discord required)
-If you encounter issues with the Solidity compiler version, please check the version compatibility. 😁
+If you encounter issues with the Solidity compiler version, please check the version compatibility.
 
-👤👤 Authors
+Authors
 Hey there! I'm Mannu Baveja, the creator of this project.
 
 Metacrafter ID: bavejamannu (bavejamannu@gmail.com)
